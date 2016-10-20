@@ -393,6 +393,7 @@
    {$DEFINE HAS_TYPES}
 {$ENDIF ver270}
 
+{$IFNDEF FPC}
 {$IFDEF DELPHI}
 {$IF CompilerVersion > 27}
    {$DEFINE Delphi}      {Delphi / C++ Builder}
@@ -415,7 +416,8 @@
    {$DEFINE Has_UInt64}
    {$DEFINE Has_Native}
    {$DEFINE HAS_TYPES}
-{$IFEND}
+{$ENDIF}
+{$ENDIF}
 {$ENDIF}
 
 {*************** define 16/32/64 Bit ********************}
