@@ -416,7 +416,7 @@
    {$DEFINE Has_UInt64}
    {$DEFINE Has_Native}
    {$DEFINE HAS_TYPES}
-{$ENDIF}
+{$IFEND}
 {$ENDIF}
 {$ENDIF}
 
